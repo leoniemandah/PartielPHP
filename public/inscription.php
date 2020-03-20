@@ -40,3 +40,5 @@ $req->execute(array(
     
     'pass' => $pass_hache,
     'email' => $email));
+
+     

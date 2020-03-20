@@ -32,10 +32,13 @@ try {
     $conn->exec($sql);
     echo "succès";
     }
-catch(PDOException $e)
-    {
-    echo $sql . "<br>" . $e->getMessage();
-    }
-
+catch(PDOException $e){
+ 
+ 
+    exit('Erreur de connexion à la base de données');
+    
+   }
+    
 $conn = null;
 ?> 
+

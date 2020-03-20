@@ -10,7 +10,7 @@ $pdo = new PDO('mysql:host=localhost;dbname=partiel','partiel','Bu5zqPyDUZRPEhyJ
 }
 catch (PDOException $exception) {
  
- mail('fauxmail@votremail.com', 'PDOException', $exception->getMessage());
+ 
  exit('Erreur de connexion à la base de données');
  
 }
