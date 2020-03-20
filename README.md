@@ -9,3 +9,9 @@
 5-Une requête préparée, c'est une requête stockée en mémoire (pour la session courante), et que l'on peut exécuter à tout moment tandis que une requête non préparée, demande d'utiliser query. Avec cette méthode, tu exécutes une requête à l'instant où tu fais appel à query.
 
 6-La différence entre les requêtes GET et POST est qu'on utilise GET pour obtenir des données, et POST pour transmettre des données.
+
+
+
+
+
+Par rapport au role moi j'ai fait une table liée entre users et groupe ce qui les lies c'est l'id_groupe.
